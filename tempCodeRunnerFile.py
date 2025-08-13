@@ -1,0 +1,5 @@
+t.click('//*[@id="numProducts"]')
+        t.wait(2)
+        products_number_str = str(row['Number of products to approve:'])
+        t.type('//*[@id="numProducts"]', products_number_str)
+        t.wait(1)
